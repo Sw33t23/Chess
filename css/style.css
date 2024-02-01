@@ -1,0 +1,26 @@
+#tabuleiro{
+    width: 800px;
+    height: 800px;
+    margin-left: 30%;
+}
+.chess-square{
+    float: left;
+    height:100px;
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-square.white{
+    background-color:blanchedalmond;
+}
+
+.chess-square.black{
+    background-color: chocolate;
+}
+
+.chess-square > img{
+    width: 90px;
+    height:90px;
+}
